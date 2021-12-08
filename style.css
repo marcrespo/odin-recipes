@@ -1,0 +1,37 @@
+.big {
+    font-size: 100px;
+    background-color: beige;
+    text-align: center;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipe {
+    font-size: 50px;
+    color: black;
+}
+
+.recipelist {
+    text-align: center;
+    list-style-type: none;
+}
+
+div {
+    text-align: center;
+}
+
+.title1,
+.title2 {
+    font-size: 60px;
+    text-align: center;
+    color: brown;
+}
+.imgs2 {
+    width: 600px;
+}
+
+/* All images will never exceed the width of their container. In this case .imgs2 is 600px so the image will never be wider than that  */
+img {
+    max-width: 100%;
+    height: auto;
+}
